@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+#home-nav{
+  background-color: rgb(43, 42, 134);
+  display: grid;
+  grid-template-columns:  repeat(10, 1fr); /* 8 columns, each 1 fraction of the container's width */
+  align-items: center;
+}
+
+.btn-nav{
+  background-color: rgb(43, 42, 134);
+  color: rgb(11, 226, 136);
+  border: 0px;
+  grid-column-start: 10;
+  grid-column-end: 11;
+  font-size: 15px;
+  padding: 1%;
+}
+
+.par-nav{
+  grid-column-start: 2;
+  grid-column-end: 8;
+  text-align: left;
+  padding: 1.5%;
+  font-size: 20px;
+  color: white;
+}
+
+.items-nav{
+  display: inline;
+}
+
+.btn-inicio{
+  background-color: aquamarine;
+  color: rgb(226, 151, 11);
+  border: 0px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 15px;
+  padding: 1%;
+  list-style-type: none;
+}
+
+.table-register{
+  border: 1px solid black;
+  border-collapse: collapse;
+  th, td {
+    border:1px solid black;
+  }
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-consult{
+  border: 1px solid black;
+  border-collapse: collapse;
+  th, td {
+    border:1px solid black;
+  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#background{
+
+  background-image: url('./components/infographics.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 150vh;
+  margin-top: -20px;
+  background-size: 100% 100%;
+
+}
+
+.par-home{
+  color:rgb(20, 250, 212);
+  text-align: center;
+  font-size: 20px;
+  position : absolute;
+  bottom : 0;
+  background-color: rgb(7, 7, 109);
+  padding: 1%;
+}
+
+#log{
+  background-image: url('./components/main.png');
+  background-repeat: no-repeat;
+  margin-top: -22px;
+  background-position: center;
+  background-position: top;
+  height: 100vh;
+  width: 100;
+  color:aliceblue;
+}
+
+button {
+  background-color: rgb(11, 13, 126);
+  color: rgb(88, 238, 156);
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 1%;
+}

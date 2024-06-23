@@ -1,0 +1,5 @@
+commit 5fbe0b40d9dedc15ac4fd83b011ca091d85c2675 (HEAD -> master)
+Author: Julián Rodríguez <julian_alexander@outlook.es>
+Date:   Thu Jun 6 16:23:07 2024 -0500
+
+    v0.5.0
